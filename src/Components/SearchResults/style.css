@@ -1,0 +1,40 @@
+.searchItem{
+    position: relative;
+    height:500px;
+    background-color: blanchedalmond;
+    width:80%;
+    right:10%;
+    left:10%
+}
+.title{
+    position: absolute;
+    height:100px;
+    background-color: blanchedalmond;
+
+}
+.Trades{
+    position: absolute;
+    height:50px;
+    width:70px;
+    left: 600px;
+    background-color: blanchedalmond;
+}
+.Withdraws{
+    position: absolute;
+    height:50px;
+    width:70px;
+    left: 700px;
+    background-color: blanchedalmond;
+}
+.searchLists{
+    position:relative;
+    top: 100px;
+    border:10px;
+}
+.oneColum{
+    position: absolute;
+    width:50%;
+    left: 35%;
+    border:0 50px;
+    margin:0 30px;
+}
