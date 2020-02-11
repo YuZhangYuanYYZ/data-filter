@@ -6,17 +6,22 @@ class SearchResults extends React.Component{
         super(props);
 
     }
-   
-
     render(){
          return(<div className = "searchResults">
-             <h1>Search Results</h1><br/>
-         <div className = "resultsSelect">
-            <h1> Total Page</h1>
+             <table>
+                 <tr>
+                     <th>Uuid </th>
+                     <th> Updated at</th>
+                     <th>Side </th>
+                     <th> Volume</th>
+                     <th> Price</th>
+                     <th> Trading pair symbol	</th>
+                 </tr>
+             </table>
              <div className = 'currentPage'></div>
              <table>
                  <tr>
-                     <th></th>
+                     <th>{"<"}</th>
                      <th>1</th>
                      <th>2</th>
                      <th>3</th>
