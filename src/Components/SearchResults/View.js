@@ -1,12 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './style.css';
 class SearchResults extends React.Component{
-    constructor(props){
-        super(props);
 
-    }
-   
 
     render(){
          return(<div className = "searchResults">
@@ -16,7 +11,7 @@ class SearchResults extends React.Component{
              <div className = 'currentPage'></div>
              <table>
                  <tr>
-                     <th></th>
+                     <th>&lt;</th>
                      <th>1</th>
                      <th>2</th>
                      <th>3</th>
@@ -28,8 +23,9 @@ class SearchResults extends React.Component{
          </div>
          <div className = "searchResultLists">
              
-             <button className = 'Reset'>Done</button>
+             
          </div>
+         
      </div>)   
     }
 }

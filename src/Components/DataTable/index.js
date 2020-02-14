@@ -1,3 +1,3 @@
-import SearchResults from './View';
+import DataTable from './View';
 
-export default SearchResults ;
+export default DataTable ;

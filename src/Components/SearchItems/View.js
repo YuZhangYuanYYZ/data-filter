@@ -1,15 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './style.css';
 class SearchItems extends React.Component{
-    constructor(props){
-        super(props);
-
-    }
-    //   searchComponent=()=> (
-        
-
-    // )
+  
 
     render(){
          return(<div className = "searchItem">

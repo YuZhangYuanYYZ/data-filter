@@ -1,4 +1,4 @@
-/* .searchItem{
+.searchItem{
     position: relative;
     height:500px;
     background-color: blanchedalmond;
@@ -39,19 +39,22 @@
     margin:0 30px;
 }
 table {
-    margin:0 20px;
+    margin:10px 20px;
     border:thin solid black;
     caption-side:top;
-    width:150px;
+    border-collapse:collapse;
 }
 
 td,th {
     border:thin dotted gray;
-    padding:15px;
-}
-td{
-    width:100px;
+    padding:5px;
 }
 th{
-    width:10px;
-} */
+    background-color:lightskyblue;
+}
+tr:nth-child(even){
+    background-color:lightyellow;
+}
+tr:nth-child(odd){
+    background-color:lightcoral;
+}
