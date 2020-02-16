@@ -8,7 +8,7 @@ import store from './redux/store'
 function App() {
   useEffect(()=>{
     console.log("App is here")
-    store.dispatch(getData());
+    store.dispatch(getData);
   })
   return (
     <Fragment>
