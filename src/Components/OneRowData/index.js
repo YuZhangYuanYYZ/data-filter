@@ -1,3 +1,3 @@
-import OneRowData from './View';
+import OneRowData from './Container';
 
 export default OneRowData ;
